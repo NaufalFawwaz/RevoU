@@ -1,7 +1,5 @@
 body{
     background-color: rgb(255, 255, 255);
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 header {
@@ -11,6 +9,8 @@ header {
 
 * {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -23,6 +23,7 @@ h5{
 }
 
 .bungkusan2{
+    margin-top: 20px;
     text-align: center;
     max-width: 60%;
 }
@@ -33,15 +34,22 @@ h5{
     align-items: center;
 }
 
+.bungkusan3{
+    margin-bottom: 30px;
+}
+
 .garis{
+    margin-top: 50px;
+    margin-bottom: 20px;
     width: 100%;
-    background-color: green;
+    background-color: rgb(194, 194, 194);
     height: 0.5px;
 }
 
 .baris{
     margin-top: 40px;
-    background-color: #798da3;
+    margin-bottom: 40px;
+    background-color: rgb(237, 240, 244);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,6 +60,7 @@ h5{
 
 .atasan{
     display: flex;
+    align-items: center;
 }
 
 .ketua{
@@ -61,18 +70,21 @@ h5{
     align-items: center;
 }
 
-.lampu{
-    background-color: aqua;
-    width: 90px;
-    height: 90px;
-    border-radius: 50px;
-}
-
-.lampu2{
+/* .espigi{
+    width: 100%;
     display: flex;
+    justify-content: center;
+} */
+
+
+
+.isi{
+    max-width: 60%;
+    width: 40%;
 }
 
-.icon{
+
+.orang{
     width: 42px;
     height: 42px;
 }
@@ -88,7 +100,7 @@ h5{
 
 .nama{
     padding: 7px;
-    width: 92%;
+    width: 88%;
     border-color: #5b5b5b;
     border-radius: 5px;
     border-width: 2px;
@@ -97,7 +109,7 @@ h5{
 
 .email{
     padding: 7px;
-    width: 92%;
+    width: 88%;
     border-color: #5b5b5b;
     border-radius: 5px;
     border-width: 2px;
@@ -123,12 +135,16 @@ h5{
     justify-content: center;
     align-items: center;
     font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .teks2{
     color: #798da3;
     font-size: 16px;
     font-family: "Open Sans", serif;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -184,7 +200,22 @@ h5{
     background-color: #232323;
     width: 100%;
     height: 42px;
-    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    height: 40px;
+    padding: 0px 10px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    display: table-cell;
+    word-break: break-word;
 }
 
 .about-img {
@@ -303,4 +334,81 @@ form {
 .input {
     display: flex;
     flex-direction: column;
+}
+
+.tombol{
+    background-color: #232323;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 206px;
+    height: 42px;
+    padding: 0px 10px;
+    min-width: 1px;
+    min-height: 1px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    display: table-cell;
+    word-break: break-word;
+    margin-bottom: 40px;
+    margin-top: 35px;
+}
+
+.tetew{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ob{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.gtw{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 50px; /*nyesuain pinggiran*/
+}
+
+.l12{
+    display: flex;
+    gap: 12px;
+    max-width: 25%;
+}
+
+.icon{
+    width: 42px;
+    height: 42px;
+    aspect-ratio: 1;
+    background-color: rgb(237, 240, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+}
+
+.icon > img {
+    width: 70%;
+}
+
+.esvigi{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
