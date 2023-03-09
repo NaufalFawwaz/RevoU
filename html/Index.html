@@ -78,21 +78,21 @@
                             <br>
                             <br>
                             <br>
-                            <form action="">
+                            <form action="" onsubmit="return validate()">
                                 <div>
                                     <label class="nama2" for="">Your name:</label>
                                     <br>
-                                    <input class="nama" type="text" name="name" placeholder="First and last name">
+                                    <input id="name" class="nama" type="text" name="name" placeholder="First and last name">
                                 </div>
                                 <div>
                                     <label class="email2" for="">Email Address:</label>
                                     <br>
-                                    <input class="email"  type="text" name="name" placeholder="example@email.com">
+                                    <input id="email" class="email"  type="text" name="name" placeholder="example@email.com">
                                 </div>
                                 <div>
                                     <label for="interest">What are you interested in?</label>
                                     <br>
-                                    <select class="opsi" name="interest" id="interest" placeholder="Select option">
+                                    <select  class="opsi" name="interest" id="interest" placeholder="Select option">
                                         <option selected hidden disabled value="a">Select option </option>
                                         <option value="b"> Wisata </option>
                                         <option value="c"> Kuliner </option>
@@ -184,5 +184,6 @@
             </div>
         </section>
     </main>
+    <script src="../js/index.js"></script>
     </body>
 </html>
